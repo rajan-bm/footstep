@@ -160,7 +160,35 @@
   max-width: 25%;
   padding: 0 4px;
 }
+.pc_non {
+  display: none;
+}
 
-.content {
-  
+/* mobile */
+@media(max-width: 786px) {
+  .logo {
+    font-size: 16px;
+    text-align: center;
+  }
+  .pc_non {
+    display: block;
+  }
+  .hamburger {
+    display: none;
+  }
+  .hamburger-menu>div {
+    height: 8px;
+    width: 80%;
+    background-color: #000;
+  }
+  .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    background-color: #f4f4f4;
+    padding: 6px;
+  }
 }
