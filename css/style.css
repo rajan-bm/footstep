@@ -181,7 +181,10 @@ img {
 }
 
 /* mobile */
-@media(max-width: 786px) {
+@media(max-width: 786px) { 
+  /* please put minimum media upto 4 levels  375, 450, 600, 800 */
+  /* don't use grid and flex together */
+
   .navbar {
     flex-direction: row;
     height: 120px;
@@ -206,6 +209,6 @@ img {
     width: 70%;
   }
   .content{
-    margin-top: 20vh;
+    margin-top: 19vh;
   }
 }
